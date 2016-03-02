@@ -60,17 +60,17 @@ public class MainActivity extends AppCompatActivity {
                     .into((ImageView) drawer.findViewById(R.id.userImage));
             ((TextView) drawer.findViewById(R.id.name)).setText(profile.getName());
         }
-        new Drawer()
+        new Drawer()T
                 .withActivity(this)
                 .withToolbar(toolbar)
                 .withActionBarDrawerToggle(true)
                 .withHeader(drawer)
                 .addDrawerItems(
                         new PrimaryDrawerItem().withName(R.string.drawer_item_map).withIcon(FontAwesome.Icon.faw_home),
-                        new PrimaryDrawerItem().withName(R.string.drawer_item_my_pins).withIcon(FontAwesome.Icon.faw_pinterest),
-                        new SecondaryDrawerItem().withName(R.string.drawer_item_help).withIcon(FontAwesome.Icon.faw_cog),
+                        new PrimaryDrawerItem().withName(R.string.drawer_item_my_pins).withIcon(FontAwesome.Icon.faw_map_marker),
+                        new SecondaryDrawerItem().withName(R.string.drawer_item_help).withIcon(FontAwesome.Icon.faw_android),
                         new DividerDrawerItem(),
-                        new SecondaryDrawerItem().withName(R.string.drawer_item_log_out).withIcon(FontAwesome.Icon.faw_github).withBadge("12+")
+                        new SecondaryDrawerItem().withName(R.string.drawer_item_log_out).withIcon(FontAwesome.Icon.faw_lock)
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
