@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">Simple Pins</string>
     <string name="action_settings">Settings</string>
+    <string name="drawer_item_map">Map</string>
+    <string name="drawer_item_my_pins">My Pins</string>
+    <string name="drawer_item_profile">Profile</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_help">Help</string>
+    <string name="drawer_item_open_source">Open Source</string>
+    <string name="drawer_item_log_out">Log out</string>
+    <string name="facebook_app_id">229244594087872</string>
+    <string name="save">Save</string>
+    <string name="remove_title">Remove pin?</string>
+    <string name="remove">Remove</string>
+
+    <string name="pin_place_description">Enter some title for this pin, please</string>
+    <string name="pin_place_title">Pin Place</string>
+
+    <string name="help_page_info">Long press on map place - and your place will be stored.\n
+        Long press on place item in MyPins page - and your place will be removed. </string>
+
 </resources>
