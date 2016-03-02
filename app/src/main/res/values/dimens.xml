@@ -2,5 +2,18 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="help_text_margin">56dp</dimen>
+    <dimen name="list_top_margin">80dp</dimen>
+
+    <dimen name="fab_margin">38dp</dimen>
+    <dimen name="fb_login_button_height">48dp</dimen>
+    <dimen name="fb_login_button_margin">60dp</dimen>
+    <dimen name="user_photo_size">80dp</dimen>
+    <dimen name="font_size_small">14sp</dimen>
+
+    <dimen name="font_size_medium">18sp</dimen>
+    <dimen name="font_size_large">24sp</dimen>
+    <dimen name="fb_button_height">51dp</dimen>
+    <dimen name="item_pin_height">80dp</dimen>
+
 </resources>
